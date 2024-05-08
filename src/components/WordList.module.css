@@ -1,0 +1,43 @@
+.listGroup {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 0;
+    border-top: 2px solid #333;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #333;
+    background-color: #e8fdff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #333;
+}
+
+.listItem:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.btnRemove {
+    background-color: #e08e96;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 2px 2px 0 #333;
+}
+
+.btnRemove:hover {
+    background-color: #d47a81;
+}
+
+.btnRemove:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
